@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+table, td, th{
+  border: 1px solid #dedede;
+  margin: auto;
+}
+table{
+  text-align: center;
+}
+th{
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+td{
+  padding: 10px 20px 10px 20px;
+}
+td:first-child{
+  background-color: #2244aa;
+  color: white;
+}
+tr:nth-child(2n){
+  background-color: #ecf1f2;
+}
+tr:nth-child(4){
+  border-bottom:dashed #000 2px ;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
