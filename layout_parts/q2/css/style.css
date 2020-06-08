@@ -7,21 +7,21 @@
 }
 .q2_content_box{
   background-color: #eff3f4;
-  width: 940px;
+  width: 900px;
   margin: 0 auto;
+  padding: 20px;
 } 
-.image1{
-  margin: 20px 20px 10px 20px;
+.image-left{
+  margin: 0 20px 10px 0;
   float: left;
 }
-.image2{
-  margin: 0px 20px 10px 20px;
+.image-right{
+  margin: 0 0 10px 20px;
   float: right;
 }
 .q2_text_box{
   font-size: 18px;
   line-height: 22px;
-  margin: 0px 20px 0px 20px;
-  text-align: justify;
+  word-break: break-all;
 }
 /* 回答はここに書いてね */
